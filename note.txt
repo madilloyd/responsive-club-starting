@@ -13,3 +13,8 @@ In this project, you’ll be building your own club group page that will dynamic
 Setup Instructions:
 If you choose to do this project on your computer instead of Codecademy, you can download what you’ll need by clicking the “Download” button below. If you need help setting up your computer, read 
 our article about setting up a text editor for HTML/CSS development.
+
+Possible responsive design concepts to demonstrate:​
+ - Making images toggle to certain percentages in terms of width after a certain minimum screen size.
+ - Using a @media rule to change page layout and behavior based on size breakpoints.
+ - Employing responsive units em and rem to size and space elements with width and padding.
