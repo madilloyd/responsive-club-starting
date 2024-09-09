@@ -1,0 +1,46 @@
+/*ELEMENTS*/
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #889499;
+}
+header {
+    padding-top: 1rem;
+    background-color: #4C453C;
+    left: 25em;
+}
+
+/*Header Section*/
+nav a {
+    color:azure;
+    text-decoration: none;
+    
+}
+.title {
+    height: 40rem;
+    padding-left: 1rem;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/mountain-top.jpg);
+    background-size: cover;
+    background-position: 0% 30%;
+}
+.title h1 {
+    color:aliceblue;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgba(138, 155, 128, 0.5);
+    text-align: center;
+}
+
+/*About Section*/
+.about {
+    
+}
+
+/*Gallery Sections*/
+
+/*Quote Section*/
+
+/*Contact Section*/
+
+/*Footer Section*/
