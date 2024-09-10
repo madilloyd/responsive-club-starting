@@ -1,16 +1,25 @@
 /*ELEMENTS*/
 body {
-    font-family: "Roboto", sans-serif;
+    display: block;
+    font-family: "SUSE", sans-serif;
     font-size: 16px;
     margin: 0;
     background-color: #999280;
 }
 header {
-    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 0;
+    width: 100%;
+    z-index: 10;
     background-color: #4C453C;
-    left: 25em;
 }
-
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 .about,
 .gallery,
 .quote,
@@ -21,22 +30,26 @@ header {
 /*Header Section*/
 nav a {
     color:azure;
-    text-decoration: none;
-    
+    display: inline-block;
+    padding: 1.2em;
+    text-decoration:none;
+    font-size: 1.5rem;
 }
 .title {
+    display: flex;
     height: 40rem;
-    padding-left: 1rem;
     background: linear-gradient(rgba(138,155,123,0.5), rgba(138,155,123,0.4)), url(images/mountain-top.jpg);
     background-size: cover;
     background-position: 0% 30%;
 }
 .title h1 {
+    flex-direction: column;
+    align-items: center;
     color:azure;
-    font-size: 2.5rem;
+    margin-top: 15rem;
+    font-size: 3rem;
     padding: 2rem;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
     text-align: center;
 }
 
@@ -61,13 +74,37 @@ nav a {
 .gallery img {
     width: 30%;
     margin: 1.5%;
-    object-fit: scale-down;
 }
 
 /*Quote Section*/
-
+.quote h2 {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.quote p {
+    font-family: "Lora", serif;
+    font-size: 1.25rem;
+    padding-left: 25em;
+    text-align: center;
+}
 /*Contact Section*/
-
+.contact {
+    margin-bottom: 2rem;
+    background-color: #4C453C;
+    padding: 10px;
+}
+.contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: azure;
+}
+.contact img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
 /*Footer Section*/
 
 /*Media*/
@@ -99,7 +136,7 @@ nav a {
 
 @media only screen and (max-width: 320px){
     .quote h2 {
-        font-size: 2rem;
+       font-size: .8rem;
     }
     .gallery img {
         width:100%,
